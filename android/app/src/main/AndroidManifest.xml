@@ -10,6 +10,9 @@
         android:name="io.flutter.app.FlutterApplication"
         android:label="minha_bomba"
         android:icon="@mipmap/ic_launcher">
+        <meta-data
+            android:name="com.google.android.geo.AIzaSyCVESdtqtwUtkNo5uvY9u01_iDpEyM2SdI"
+            android:value="AIzaSyCVESdtqtwUtkNo5uvY9u01_iDpEyM2SdI"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
@@ -30,4 +33,5 @@
             </intent-filter>
         </activity>
     </application>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 </manifest>
